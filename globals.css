@@ -1,0 +1,25 @@
+@font-face{font-family:Asal;src:url(/fonts/Asal-Bold.otf) format('opentype');font-weight:700;font-display:block}
+@font-face{font-family:Asal;src:url(/fonts/Asal-Medium.otf) format('opentype');font-weight:500;font-display:block}
+@font-face{font-family:Asal;src:url(/fonts/Asal-Light.otf) format('opentype');font-weight:300;font-display:block}
+@font-face{font-family:'Inter Display';src:url(/fonts/InterDisplay-Bold.otf) format('opentype');font-weight:700;font-display:swap}
+@font-face{font-family:'Inter Display';src:url(/fonts/InterDisplay-Medium.otf) format('opentype');font-weight:500;font-display:swap}
+
+:root{
+  --lp:#AC80DF;   /* لافندر */
+  --dp:#6E39AB;   /* بنفسجي */
+  --ind:#3F0B79;  /* نيلي */
+  --hi:#B949F5;   /* تمييز */
+  --g:#F2F2F2;    /* رمادي */
+  --g2:#E6E6E6;
+  --ink:#1a0530;
+  --night:#14031f;
+  --soft:#d9c8ef;
+  --ok:#2fbf71;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{height:100%}
+body{font-family:Asal,'Inter Display',system-ui,sans-serif;font-weight:500;-webkit-font-smoothing:antialiased;color:var(--ink);background:#fff}
+button{font-family:inherit;cursor:pointer;border:0;background:none;color:inherit}
+input,textarea{font-family:inherit}
+.en{font-family:'Inter Display',Inter,system-ui,sans-serif;direction:ltr;unicode-bidi:isolate}
+a{color:inherit}
